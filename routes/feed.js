@@ -5,6 +5,6 @@ const router = express.Router();
 
 
 // GET url: feed/posts
-router.get('/post', feedController.getPosts);
+router.get('/posts', feedController.getPosts);
 
 module.exports = router;
